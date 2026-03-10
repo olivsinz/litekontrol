@@ -5,15 +5,16 @@ includes:
 parameters:
 
     paths:
-        - app/
+        - app
         - bootstrap
         - config
+        - database
+        - routes
 
     # Level 10 is the highest level
-    level: 5
+    level: 7
 
     ignoreErrors:
-        - '#PHPDoc tag @var#'
 
     excludePaths:
 

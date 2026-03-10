@@ -82,6 +82,15 @@
         "test": [
             "@php artisan config:clear --ansi",
             "@php artisan test"
+        ],
+        "phpstan": [
+            "./vendor/bin/phpstan analyse -v  --ansi"
+        ],
+        "pint": [
+            "./vendor/bin/pint -v --ansi"
+        ],
+        "pest": [
+            "./vendor/bin/pest --colors=always"
         ]
     },
     "extra": {
